@@ -1,0 +1,29 @@
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Registros y sistema operativo
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
